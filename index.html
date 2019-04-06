@@ -2,43 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">  
-    <link rel="stylesheet" href="style.css">
-     
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="imagehover.css-master/css/imagehover.min.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-<div class="welcome">
-    <h1>Welcome to Student ERP</h1>
-        <div class="video-container">
-            <video autoplay loop muted>
-            <source src="workspace.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="imgs">
-            <span class="student-img">
-                    <figure class="imghvr-ih-fade-up">
-                        <img src="student1.png" style="width:150px;height:150px;"/>
-                        <figcaption>
-                                <h3 class="ih-fade-down ih-delay-md ">Student</h3>
-                            </figcaption>
-                            <a href="studentlogin.html"></a>
-                        </figure>     
-            </span>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <span class="teacher-img">
-                <figure class="imghvr-ih-fade-up">
-                    <img src="teacher1.png" style="width:150px;height:150px;"/>
-                    <figcaption>
-                            <h3 class="ih-fade-down ih-delay-md "></h3>Teacher</h3>
-                    </figcaption>
-                    <a href="teacherlogin.html"></a>
-                </figure>   
-            </span>
-        </div>
-       </div>
-</body>
+<nav>
+    <div class="nav-wrapper">
+        Welcome to student ERP 
+    </div>
+</nav>
+<h3>Login as</h3>
+<div class="img-setup">
+<figure class="imghvr-fade" id="img1">
+<img src="/home/jagriti/Desktop/learner/studentERP/savatar.png">
+<a href="studentlogin.html" target="_self"></a>
+<figcaption><h3>Student</h3>
+</figcaption>
+</figure>
 
+<figure class="imghvr-fade" id="img2">
+<img src="/home/jagriti/Desktop/learner/studentERP/tavatar.png">
+<figcaption><h3>Teacher</h3></figcaption>
+<a href="teacherlogin.html" target="self"></a>
+</figure>
+</div>
+<div class="rect1" id="rect">Download and Upload Assignments</div>
+<div class="rect2" id="rect">Submit Feedbacks</div>
+<div class="rect3" id="rect">Check Your Marks Assigned</div>
+<div class="rect4" id="rect">Teacher's Favorite
+    <div class="sub-rect4">Automatic Message sent on "E" grade</div>
+</div>
+        
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+</html>
 
