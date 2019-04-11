@@ -25,18 +25,18 @@ body h3{
 figure img{
   position: static;
   border-radius: 50%;
-  height: 30em;
-  width:30em;
+  height: 20em;
+  width:20em;
   }
   #img1{
     position:relative;
     top:5em;
-    left:25em;
+    left:35em;
   }
   #img2{
     position: relative;
     top:5em;
-    left:45em;
+    left:55em;
   }
 
 .figcaption h3{
@@ -75,6 +75,33 @@ height: 40vh;
   top:2em;
   left:10em;
   color: #eeeeee;
+}
+.rect1{
+  margin-top: 10em;
+}
+#rect{
+ padding:2em;
+ margin-left: 5em;
+ margin-bottom:5em;
+ width: 50em;
+ height:4em;
+ transform: skew(20deg);
+ background:	#E8E8E8;
+ font-family:'Gloria Hallelujah', cursive;
+ font-size: 1.5em;
+ color: #01579b;
+ font-weight: bold;
+ letter-spacing: 0.2em;
+ 
+}
+#rect i{
+  color: green;
+}
+.subBut{
+  background-color:#01579b !important;
+  position: relative;
+  top:12em;
+  left:20em;
 }
 
   
