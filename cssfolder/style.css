@@ -50,7 +50,7 @@ figure img{
 
 .studlogin{
 background-image:linear-gradient(rgba(1, 88, 155, 0.589),
-rgba(45, 114, 167, 0.315)),url(slogin2.jpg);
+rgba(45, 114, 167, 0.315)),url(../photos/bg.jpg);
 background-size:cover;
 background-repeat:no-repeat;
 height: 40vh;
