@@ -7,28 +7,29 @@
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
- 
+<link type="stylesheet" href="profile.css">
 
 </head>
 
 <body class="studlogin">
 <div class="ui container">
 <div class="welcome">Hello! Student</div>
-<form id="login" target="self">
+<form onsubmit="return validate()" id="login" 
+target="_self" action="profile.html">
  <table class="ui celled table" id="table_login">
       <tbody>
         <tr>
         <td>Username</td>
         <td >
-        <div class="ui transparent input">
-        <input type="text"/>
+        <div class="ui transparent input" >
+        <input type="text" id="uname"/>
         </div></td>                  
         </tr>
         <tr>
         <td>Password</td>
         <td >
-        <div class="ui transparent input">
-        <input type="password"/>
+        <div class="ui transparent input"   >
+        <input type="password"id="pswrd"/>
         </div></td>                  
         </tr>
         </tbody>
@@ -40,5 +41,7 @@
 </div>
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="validate.js"></script>
+  
     </body>
   </html>
