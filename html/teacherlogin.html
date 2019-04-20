@@ -1,24 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-<link rel="stylesheet" href="css/imagehover.min.css">
-</head>
-        <figure class="imghvr-fade">
-                <img src="student1.png">
-                <figcaption>
-                    hello
-                </figcaption>
-            </figure>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css"/>
+<link rel="stylesheet" href="../cssfolder/style.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
 
-</html>
-#rect:nth-child(n+1){
-    padding: 2em;
-     height: 5em;
-     width: 40em;
-     background-color: aqua;
-     font-size: 2em;
-    }
-    .rect1{
-     padding: 5em;
-    }
+
+</head>
+
+<body class="teachlogin">
+<div class="ui container">
+<div class="welcome-2">Hello! Faculty</div>
+<form onsubmit="return validate()" id="login" 
+target="_self" action="../html/profileT.html">
+ <table class="ui celled table" id="table_login">
+      <tbody>
+        <tr>
+        <td>Username</td>
+        <td >
+        <div class="ui transparent input" >
+        <input type="text" id="uname"/>
+        </div></td>                  
+        </tr>
+        <tr>
+        <td>Password</td>
+        <td >
+        <div class="ui transparent input"   >
+        <input type="password"id="pswrd"/>
+        </div></td>                  
+        </tr>
+        </tbody>
+</table>
+<button class="btn waves-effect waves-light btn-large subBut" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</form>
+</div>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+      <script type="text/javascript" src="../js/validate.js"></script>
+  
+    </body>
+  </html>
