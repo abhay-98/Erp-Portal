@@ -8,20 +8,16 @@
     <meta content="width=device-width" name="viewport" />
     <meta content="width=device-width,initial-scale=0.75" name="viewport" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css"/>
-    
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:700&amp;subset=latin-ext" rel="stylesheet">
     <!--Import materialize.css-->
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="../imagehover.css-master/css/imagehover.min.css">
     <link rel="stylesheet" href="../cssfolder/profile.css">
     
 </head>
 <body>
-        <!-- Dropdown Structure -->
+    
         <ul id="dropdown1" class="dropdown-content">
         <li><a href="../html/uploadAss.html">Upload</a></li>
         <li><a href="../html/downloadAss.html">Download</a></li>
@@ -30,12 +26,25 @@
     <div class="nav-wrapper" id="navwrapper">
       <a class="rollno">MREI2323</a>
         <ul class="right hide-on-med-and-down">
-         <li><a href="../html/feedback.html">Feedback</a></li>
+         <li><a href="../html/rating.html">Feedback</a></li>
          <li><a href="../html/assignment.html">Grades</a></li>
          <!-- Dropdown Trigger -->
          <li><a class="dropdown-trigger" data-target="dropdown1">Assignments<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
     </div>
 </nav>
+    <div class="img">
+        <img src="https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif">
+    </div>
+<script src="https://code.jquery.com/jquery-2.2.4.js" 
+integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>   
+    $( document ).ready(function(){
+        $(".dropdown-trigger").dropdown({
+            hover:false
+        });
+    });
+</script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../cssfolder/rating.css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css"/>
+    </head>
+<body class="ui container">
+    <div class="ui form">
+        <h1>Feedback</h1>
+            <div class="txtb">
+              <label>Faculty Name</label>
+              <input type="text" maxlength="2">
+            </div>
+            <div class="txtb">
+                <label>Ratings</label>
+                <x-star-rating value="3"></x-star-rating>
+            </div>
+            <div class="txtb">
+              <label>Remarks</label>
+              <textarea rows="2"></textarea>
+            </div>
+            <button class="ui button" type="submit">Submit</button>
+    </div>
+    <script src="../js/rating.js"></script>
+</body>
+</html>
